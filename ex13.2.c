@@ -16,3 +16,18 @@ int main(int argc, char *argv[])
     printf("Incorrect number of command line arguments\n");
   }
   return 0;
+  
+  
+void calculate_and_print(int *array,int size){
+	int i=0,sum=0;
+	printf("Elements of the array: ");
+	for(i;i<size;i++){
+		printf("%d ", array[i]);
+		sum += array[i];
+	}
+	printf("\nSum = %d", sum);
+}
+		
+
+
+  
